@@ -1,4 +1,4 @@
-/* header css */
+/* historic page start */
 
 * {
     margin: 0px;
@@ -98,6 +98,8 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
 }
 
 .col1,
@@ -120,7 +122,12 @@ body {
     border-top: 2px solid #6C071A;
 
 }
+/* historic page end */
 
+
+
+
+/* zone page start */
 .head {
     text-align: center;
     /* font-family: Arial, Helvetica, sans-serif; */
@@ -172,3 +179,5 @@ body {
     color: white;
     cursor: pointer;
 }
+/* zone page end */
+
