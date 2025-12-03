@@ -91,6 +91,7 @@ body {
 .box-img {
     height: 250px;
     width: 400px;
+    border-radius: 4px;
 }
 
 .row {
@@ -102,12 +103,22 @@ body {
 .col1,
 .col2,
 .col3 {
-    height: 400px;
+    height: 430px;
     width: 400px;
     background-color: #f8f6f4;
     text-align: center;
     border-radius: 10px;
-    border: 5px solid #6c071ab3;
+    border: 5px solid #6c071a;
+    box-shadow: 1px 5px 20px #6c071a;
+}
+.heading{
+    color: #6c071a;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 2px solid #6C071A;
+    border-top: 2px solid #6C071A;
+
 }
 
 .head {
