@@ -5,7 +5,7 @@
 }
 
 #alert {
-    background-color:#d9d9d9;
+    background-color:;
     color:rgb(0, 0, 0); 
     padding: 8px 0; 
     font-size:20px; 
@@ -13,7 +13,8 @@
 }
 
 .header {
-    background-color: rgb(255, 255, 255);
+    background-color: #6C071A;
+    
 }
 
 .list {
@@ -32,18 +33,21 @@
 .list-item1 {
     margin: 30px;
     padding-right: 270px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 26px;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-size: 30px;
 }
 
 a {
     text-decoration: none;
-    /* color: rgb(112, 2, 112); */
+    color: #D4AF37;
 }
 #nav-bar{
-    background-color: azure;
-    border-bottom: solid 1px rgb(74, 1, 74);
+    /* background-color: maroon; */
+    /* border-bottom: solid 1px rgb(74, 1, 74); */
     
+}
+body{
+    background-color: #EFE6DD;
 }
 
 
