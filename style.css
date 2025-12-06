@@ -4,36 +4,41 @@
     margin: 0px;
     padding: 0px;
 }
-body{
-   background-color: #EFE6DD; 
+
+body {
+    background-color: #EFE6DD;
 }
-.list-item1{
-margin-left: 0px;
-/* margin-right: 300px; */
-/* margin-left: 50px; */
-font-size: 28px;
- margin-right: 24%;
- margin-left: 55px;
- font-weight: bold;
+
+.list-item1 {
+    margin-left: 0px;
+    /* margin-right: 300px; */
+    /* margin-left: 50px; */
+    font-size: 28px;
+    margin-right: 24%;
+    margin-left: 55px;
+    font-weight: bold;
 }
-.list1{
+
+.list1 {
     display: flex;
     list-style: none;
     /* justify-content: center; */
     align-items: center;
-   
-    
+
+
 }
-.l-i1{
+
+.l-i1 {
     font-size: 18px;
     /* margin-right: 60px; */
     /* margin-left: 50px; */
     margin-right: 50px;
 
 }
-a{
-   text-decoration: none;
-   color: #D4AF37;
+
+a {
+    text-decoration: none;
+    color: #D4AF37;
 }
 
 /* Marquee alert bar */
@@ -48,7 +53,8 @@ a{
 /* Navigation bar design */
 .navbar {
     padding: 25px;
-    background: #6c071a;       /* SAME HEIGHT AS YOUR ORIGINAL */
+    background: #6c071a;
+    /* SAME HEIGHT AS YOUR ORIGINAL */
 }
 
 .nav-list {
@@ -103,14 +109,16 @@ a{
     border: 5px solid #D4AF37;
 
 }
-.h{
+
+.h {
     color: #6c071a;
     margin-bottom: 30px;
     border-bottom: 2px solid #D4AF37;
     border-top: 2px solid #D4AF37;
 
 }
-.h2{
+
+.h2 {
     color: #6C071A;
     margin-top: 70px;
     border-top: 2px solid #D4AF37;
@@ -121,7 +129,8 @@ a{
     margin-top: 80px;
     margin-bottom: 50px;
 }
-.h-3{
+
+.h-3 {
     margin-top: 30px;
     text-align: center;
 }
@@ -142,7 +151,8 @@ a{
     width: 400px;
     border-radius: 4px;
 }
-.box-img2{
+
+.box-img2 {
     height: 350px;
     width: 550px;
     border-radius: 4px;
@@ -155,7 +165,8 @@ a{
     margin-bottom: 50px;
     margin-top: 20px;
 }
-.row2{
+
+.row2 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -163,7 +174,7 @@ a{
     margin-top: 40px;
 }
 
-.col{
+.col {
     height: 430px;
     width: 400px;
     background-color: #f8f6f4;
@@ -172,7 +183,8 @@ a{
     border: 5px solid #6c071a;
     box-shadow: 1px 5px 20px #6c071a;
 }
-.col2{
+
+.col2 {
     height: 430px;
     width: 550px;
     background-color: #f8f6f4;
@@ -181,7 +193,8 @@ a{
     border: 5px solid #6c071a;
     box-shadow: 1px 5px 20px #6c071a;
 }
-.heading{
+
+.heading {
     color: #6c071a;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -190,17 +203,19 @@ a{
     border-top: 2px solid #6C071A;
 
 }
-.btn1{
+
+.btn1 {
     padding: 10px 15px;
     font-size: 24px;
     margin-top: 10px;
     background-color: #6C071A;
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    border: 4px solid #D4AF37 ;
+    border: 4px solid #D4AF37;
     border-radius: 5px;
-  
+
 }
+
 /* historic page end */
 
 
@@ -208,7 +223,7 @@ a{
 
 
 /* Seven Wonder page start */
-.h-1{
+.h-1 {
     color: #6c071a;
     margin-bottom: 30px;
     border-bottom: 2px solid #D4AF37;
@@ -219,6 +234,7 @@ a{
     text-align: center;
 
 }
+
 #p-box2 {
     height: 100px;
     width: 100%;
@@ -238,7 +254,8 @@ a{
     border: 5px solid #D4AF37;
 
 }
-.b-c1{
+
+.b-c1 {
     height: 40px;
     width: 18%;
     background-color: #6c071a;
@@ -251,7 +268,8 @@ a{
     border: 5px solid #D4AF37;
     font-size: 18px;
 }
-.b-c2{
+
+.b-c2 {
     height: 40px;
     width: 18%;
     background-color: #6c071a;
@@ -264,7 +282,8 @@ a{
     border: 5px solid #D4AF37;
     font-size: 20px;
 }
-.b-c3{
+
+.b-c3 {
     height: 60px;
     width: 18%;
     background-color: #6c071a;
@@ -277,8 +296,9 @@ a{
     border: 5px solid #D4AF37;
     font-size: 17px;
 }
-.img-1{
-     width: 100%;
+
+.img-1 {
+    width: 100%;
     height: 80vh;
     margin-top: 10px;
     /* border-radius: 5px; */
@@ -286,7 +306,8 @@ a{
     border-bottom: 4px solid #6C071A;
 
 }
-.head1{
+
+.head1 {
     color: #6c071a;
     margin-bottom: 0px;
     border-bottom: 2px solid #D4AF37;
@@ -296,28 +317,107 @@ a{
     margin-right: 160px;
     text-align: center;
 }
-.h-box1{
+
+.h-box1 {
     /* height: 100px;
     width: 100%; */
 }
-.W-box1{
+
+.W-box1 {
     width: 65%;
     height: 47vh;
     background-color: #6C071A;
     color: wheat;
     /* margin-left: 18%; */
 }
-.W-list{
+
+.W-list {
     margin-left: 30px;
     margin-top: 0px;
 }
+
 /* Seven Wonder page end */
+
 /* zone page start */
-.head {
+.parentslide {
+    align-items: stretch;
+    position: relative;
+    height: auto;
+    width: 99%;
+    margin-left: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* RIGHT SIDE IMAGE */
+.slideimg {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.slideimg img {
+    width: 100%;
+    height: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    /* image same look as screenshot */
+    border-radius: 10px;
+    border: 4px solid #6C071A;
+    align-items: center;
+}
+
+/* LEFT SIDE TEXT */
+.textside {
+    width: 50%;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.slidehead {
+    margin-top: 40px;   /* new */
+    margin-bottom: 15px;
+    font-family: "Abril Fatface", serif;
     text-align: center;
-    margin-top: 25px;  /* FIXED: small margin to match other pages */
-    font-size: 38px;
-    color: #333;
+    text-transform: capitalize;
+    color: #6C071A;
+    text-decoration: double underline;
+}
+
+.his {
+    color: #D4AF37;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.sp {
+    margin-bottom: 12px;
+    line-height: 1.6;
+    color:#5a0214;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+
+}
+
+.head {
+    height: 100px;
+    width: 50%;
+    background-color: #6c071a;
+    color: white;
+    border-radius: 7px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 20px;
+    border: 5px solid #D4AF37;
 }
 
 /* Description */
@@ -326,7 +426,7 @@ a{
     margin: 10px auto 30px;
     text-align: center;
     font-size: 17px;
-    color: #555;
+    color: #ffffff;
     line-height: 1.6;
 }
 
@@ -344,7 +444,7 @@ a{
     background: white;
     padding: 18px;
     border-radius: 15px;
-    box-shadow: 10px  10px 10px 10px rgba(0, 0, 0, 0.12);
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.12);
     transition: 0.3s ease;
 }
 
@@ -386,12 +486,15 @@ a{
     cursor: pointer;
     transition: 0.3s;
 }
-
 .btn:hover {
     background: #a0112e;
 }
+.main{
+    margin: 30px;
+    text-align: center;
+     border-bottom: 2px solid #D4AF37;
+    border-top: 2px solid #D4AF37;
+    color: #6C071A;
+}
 
 /* zone page end */
-
-
-
