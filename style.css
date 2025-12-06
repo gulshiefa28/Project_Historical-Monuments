@@ -5,7 +5,7 @@
     padding: 0px;
 }
 body{
-   background-color: #EFE6DD; 
+   background-color: white; 
 }
 .list-item1{
 margin-left: 0px;
@@ -61,6 +61,13 @@ a{
     padding: 30px;
 }
 
+.section1{
+    display: flex;  
+    justify-content: center;
+}
+
+
+
 .nav-list li a {
     text-decoration: none !important;
     color: #fff;
@@ -98,7 +105,7 @@ a{
     color: white;
     border-radius: 7px;
     text-align: center;
-    margin-left: 35%;
+    /* margin-left: 35%; */
     margin-top: 30px;
     padding-top: 20px;
     border: 5px solid #D4AF37;
@@ -260,7 +267,7 @@ a{
     border-radius: 20px;
     text-align: center;
     border: 5px solid rgb(150, 28, 28);
-    box-shadow: 4px 5px 10px 1px #8C1729;
+    box-shadow: 10px 8px 1px 0px #8C1729;
 
 
 }
@@ -275,7 +282,7 @@ a{
 .b-c2{
     height: 40px;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 20px;
     padding-top: 20px;
     font-size: 16px;
 }
@@ -290,7 +297,7 @@ a{
 .b-c4{
     height: 60px;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 20px;
     padding-top: 20px;
     font-size: 17px;
 }
@@ -298,7 +305,7 @@ a{
 .b-c5{
     height: 70px;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 20px;
     padding-top: 10px;
     font-size: 17px;
 }
@@ -307,7 +314,8 @@ a{
     height: 269.5px;
     width: 27%;
     margin-top: 10px;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
     font-size: 17px;
     padding-left: 10px;
     padding-right: 10px;
@@ -315,7 +323,7 @@ a{
 .b-c7{
     height: 100px;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 20px;
     padding-top: 20px;
     font-size: 17px;
 }
@@ -418,9 +426,9 @@ a{
     margin-top: 10px;
     /* border-radius: 5px; */
     border-top: 5px solid ;
-    border-bottom: 5px solid rgb(68, 177, 213);
-    border-right: 5px solid rgb(68, 177, 213);
-    border-top: 5px solid rgb(68, 177, 213);
+    border-bottom: 5px solid #6C071A;
+    border-right: 5px solid #6C071A;
+    border-top: 5px solid #6C071A;
 }
 .img-3{
      width: 100%;
