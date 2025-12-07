@@ -1,0 +1,274 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    animation: slideUp 0.8s ease-out;
+    background-color: #EFE6DD; 
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.list-item1 {
+    margin-left: 0px;
+    font-size: 28px;
+    margin-right: 24%;
+    margin-left: 55px;
+    font-weight: bold;
+}
+
+.list1 {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.l-i1 {
+    font-size: 18px;
+    margin-right: 50px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #D4AF37;
+}
+
+/* Marquee alert bar */
+#alert {
+    padding: 7px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+/* Navigation bar design */
+.navbar {
+    padding: 25px;
+    background: #6c071a;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    margin: 0;
+    padding: 30px;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list li a {
+    text-decoration: none !important;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.nav-list li a:hover {
+    color: #ffcc00;
+}
+
+.nav-list li a.active {
+    color: #ffcc00;
+}
+
+/* zone page start */
+.parentslide {
+    align-items: stretch;
+    position: relative;
+    height: auto;
+    width: 99%;
+    margin-left: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* RIGHT SIDE IMAGE */
+.slideimg {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.slideimg img {
+    width: 100%;
+    height: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 4px solid #6C071A;
+    align-items: center;
+}
+
+/* LEFT SIDE TEXT */
+.textside {
+    width: 50%;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.slidehead {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-family: "Abril Fatface", serif;
+    text-align: center;
+    text-transform: capitalize;
+    color: #6C071A;
+    text-decoration: double underline;
+}
+
+.his {
+    color: #D4AF37;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.sp {
+    margin-bottom: 12px;
+    line-height: 1.6;
+    color: #5a0214;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+
+}
+
+.head {
+    min-height: 100px;
+    height: auto;
+    width: 50%;
+    background-color: #6c071a;
+    color: white;
+    border-radius: 7px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 20px;
+    border: 5px solid #D4AF37;
+}
+
+/* Description */
+.des {
+    max-width: 850px;
+    margin: 10px auto 30px;
+    text-align: center;
+    font-size: 17px;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* Grid Layout */
+.grid {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* Card Styling */
+.card {
+    background: white;
+    padding: 18px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.18);
+    transform: translateY(-8px) scale(1.02);
+}
+
+/* Card Image */
+.card img {
+    width: 100%;
+    height: 225px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Card Heading */
+.card h2 {
+    margin: 12px 0 5px;
+    color: #222;
+    font-size: 21px;
+}
+
+/* Card Text */
+.card p {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/* Buttons */
+.btn {
+    margin-top: 12px;
+    padding: 12px 18px;
+    border: none;
+    background: #7a0019;
+    color: white;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    transition: 0.3s ease-in-out;
+    letter-spacing: 0.5px;
+}
+
+.btn:hover {
+    background: #a0112e;
+}
+
+.main {
+    margin: 30px;
+    text-align: center;
+    border-bottom: 2px solid #D4AF37;
+    border-top: 2px solid #D4AF37;
+    color: #6C071A;
+}
+
+/* zone page end */
+.main::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    margin: 10px auto;
+    background: #D4AF37;
+    border-radius: 5px;
+}
+@media (max-width: 768px) {
+    .parentslide {
+        flex-direction: column;
+    }
+
+    .textside,
+    .slideimg {
+        width: 100%;
+    }
+}
