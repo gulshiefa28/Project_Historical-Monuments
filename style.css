@@ -4,6 +4,9 @@
     margin: 0px;
     padding: 0px;
 }
+.b{
+    border: 1px solid black;
+}
 body{
    background-color: #EFE6DD; 
 }
@@ -12,7 +15,7 @@ body{
     margin-left: 0px;
     /* margin-right: 300px; */
     /* margin-left: 50px; */
-    font-size: 28px;
+    font-size: 30px;
     margin-right: 24%;
     margin-left: 55px;
     font-weight: bold;
@@ -31,12 +34,12 @@ body{
     font-size: 18px;
     /* margin-right: 60px; */
     /* margin-left: 50px; */
-    margin-right: 50px;
+    margin-right: 47px;
 
 }
 a{
    text-decoration: none;
-   color: #D4AF37;
+   color: #EFE6DD;
 }
 
 /* Marquee alert bar */
@@ -50,7 +53,7 @@ a{
 
 /* Navigation bar design */
 .navbar {
-    padding: 25px;
+    padding: 26px;
     background: #6c071a;
     /* SAME HEIGHT AS YOUR ORIGINAL */
 }
@@ -92,7 +95,8 @@ a{
 
 #img3 {
     width: 100%;
-    height: 70vh;
+    height: 75vh;
+    border-bottom: 7px solid #6c071a;
 }
 
 #p-box {
@@ -186,7 +190,19 @@ a{
     text-align: center;
     border-radius: 10px;
     border: 5px solid #6c071a;
-    box-shadow: 1px 5px 20px #6c071a;
+}
+.col:hover{
+    transform: translateY(-9px);
+    box-shadow: 1px 5px 20px 1px #6c071a;
+    background: none;
+     cursor: pointer;
+     background-color: #EFE6DD;
+}
+.col2:hover{
+    transform: translateY(-12px);
+    box-shadow: 1px 5px 20px 1px #6c071a;
+    background-color: peachpuff;
+        cursor: pointer;
 }
 
 .col2 {
@@ -196,7 +212,7 @@ a{
     text-align: center;
     border-radius: 10px;
     border: 5px solid #6c071a;
-    box-shadow: 1px 5px 20px #6c071a;
+    /* box-shadow: 1px 5px 20px #6c071a; */
 }
 
 .heading {
@@ -260,6 +276,21 @@ a{
     border: 5px solid #D4AF37;
 
 }
+.d-flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-b-c1{
+    width: 24%;
+    text-align: center;
+    margin-right: 30px;
+}
+.main-b-c2{
+    width: 24%;
+    text-align: center;
+    margin-right: 30px;
+
+}
 .b-c1{
     height: 40px;
     width: 100%;
@@ -316,6 +347,39 @@ a{
     margin-top: 20px;
     padding-top: 20px;
     font-size: 17px;
+}
+.b-c1,.b-c2,.b-c3,.b-c4,.b-c5,.b-c6,.b-c7{
+    background-color: #7a0019;
+    color: white;
+    border: 5px solid #D4AF37;
+    border-radius: 15px;
+    /* width: 30%; */
+    padding-left: 10px;
+    padding-right: 10px;
+    /* box-shadow: 7px 8px 0px 1px #D4AF37; */
+}
+.b-c1:hover,.b-c2:hover,.b-c3:hover,.b-c4:hover,.b-c5:hover,.b-c6:hover,.b-c7:hover{
+    /* box-shadow: 5px 10px 12px 5px rgb(160, 158, 158); */
+    background-color: #6c071a;
+    box-shadow: 7px 10px 0px 1px #D4AF37;
+    transform: translateY(-8px);
+}
+.b-c8:hover,.b-c9:hover,.b-c10:hover,.b-c11:hover,.b-c12:hover,.b-c13:hover,.b-c14:hover{
+    /* box-shadow: 5px 10px 12px 5px rgb(160, 158, 158); */
+    background-color: rgb(250, 253, 170);
+    box-shadow: 7px 10px 0px 1px yellowgreen;
+    transform: translateY(-8px);
+}
+
+.b-c8,.b-c9,.b-c10,.b-c11,.b-c12,.b-c13,.b-c14{
+    background-color: rgb(250, 253, 178);
+    color: rgb(1, 92, 1);
+    border: 5px solid yellowgreen;
+    border-radius: 15px;
+    /* width: 30%; */
+    padding-left: 10px;
+    padding-right: 10px;
+    /* box-shadow: 7px 8px 0px 1px yellowgreen; */
 }
 
 
@@ -378,7 +442,7 @@ a{
 .img-1{
      width: 100%;
     height: 80vh;
-    margin-top: 10px;
+    margin-top: 30px;
     /* border-radius: 5px; */
     border-top: 5px solid #6C071A;
     border-bottom: 5px solid #6C071A;
@@ -386,7 +450,7 @@ a{
 }
 .img-2{
      width: 100%;
-    height: 70vh;
+    height: 75vh;
     margin-top: 10px;
     /* border-radius: 5px; */
     border-top: 5px solid ;
@@ -394,9 +458,14 @@ a{
     border-right: 5px solid #6C071A;
     border-top: 5px solid #6C071A;
 }
+.par{
+    display: flex;
+    /* justify-content: start; */
+    margin-top: 20px;
+}
 .img-4{
      width: 100%;
-    height: 70vh;
+    height: 75vh;
     margin-top: 10px;
     /* border-radius: 5px; */
     border-top: 5px solid ;
@@ -407,7 +476,7 @@ a{
 .img-3{
      width: 100%;
     height: 90vh;
-    margin-top: 10px;
+    margin-top: 30px;
     /* border-radius: 5px; */
     border-top: 5px solid rgb(12, 108, 12);
     border-bottom: 5px solid rgb(12, 108, 12);
@@ -423,10 +492,27 @@ a{
     margin-right: 160px;
     text-align: center;
 }
+.p1{
+    color: #6C071A;
+    margin-top: 5px;
+}
+.ph1{
+    color: #ddb123;
+    margin-top: 20px;
+}
 
 .h-box1 {
     /* height: 100px;
     width: 100%; */
+}
+.h-box2 {
+     height: 100px; 
+    width: 40%; 
+    text-align: justify;
+    margin-right: 150px;
+    margin-left: 20px;
+    margin-top: 5px;
+    /* margin-right: 40px; */
 }
 .W-box1{
     width: 65%;
@@ -442,6 +528,16 @@ a{
 }
 
 /* Seven Wonder page end */
+
+
+
+
+
+
+
+
+
+
 
 /* zone page start */
 .parentslide {
