@@ -45,11 +45,14 @@ footer{
 }
 
 .l-i1 {
-    font-size: 18px;
+    font-size: 16px;
     /* margin-right: 60px; */
     /* margin-left: 50px; */
     margin-right: 47px;
 
+}
+a:hover{
+    color: #D4AF37;
 }
 a{
    text-decoration: none;
@@ -58,8 +61,8 @@ a{
 
 /* Marquee alert bar */
 #alert {
-    /* background: #ffcc00; */
-    padding: 7px;
+    /* background: #EFE6DD; */
+    padding:7px ;
     font-size: 18px;
     font-weight: bold;
     color: #000;
@@ -581,17 +584,22 @@ table{
 
 
 .grid2 {
-    /* width: 90%;
+    width: 95%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 30px; */
-    display: flex;
+    /* gap: 110px; */
+    margin-top: 80px;
+    margin-left: 75px;
+   
+}
+.grid3{
     justify-content: space-evenly;
     align-items: center;
     margin-bottom: 50px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
+
 
 /* Card Styling */
 .card2 {
@@ -600,7 +608,7 @@ table{
     border-radius: 15px;
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.12);
     transition: 0.3s ease; */
-    height: 430px;
+    height: 450px;
     width: 400px;
     background-color: #f8f6f4;
     text-align: center;
@@ -610,13 +618,20 @@ table{
 }
 
 .card2:hover {
-    transform: translateY(-8px);
+    transform: translateY(-9px) scale(1.02);
+    box-shadow: 1px 5px 20px 1px #6c071a;
+    background: none;
+     cursor: pointer;
+     background-color: #EFE6DD;
 }
 .card2 img {
-    width: 100%;
+    /* width: 100%;
     height: 260px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 10px; */
+    height: 260px;
+    width: 400px;
+    border-radius: 4px;
 }
 /* Seven Wonder page end */
   /* style by Gulshiefa End */
@@ -796,3 +811,11 @@ table{
 
 
 
+
+
+
+
+
+/* home page start */
+
+/* home page start */

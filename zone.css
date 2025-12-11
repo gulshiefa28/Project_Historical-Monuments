@@ -3,18 +3,30 @@
     padding: 0px;
     box-sizing: border-box;
 }
-body {
+
+
+body,
+html {
+    overflow-x: hidden;
     animation: slideUp 0.8s ease-out;
-    background-color: #EFE6DD; 
+    background-color: #EFE6DD;
 }
-footer{
-    /* width: 100%; */
-    /* height: 50px; */
+
+img {
+    max-width: 100%;
+}
+
+
+footer {
     width: 100%;
+    box-sizing: border-box;
+    height: 100px;
     background-color: #7A0A10;
     color: #E8DCCF;
     font-size: 20px;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
     padding-top: 30px;
     margin-top: 90px;
 }
@@ -24,6 +36,7 @@ footer{
         opacity: 0;
         transform: translateY(20px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -52,7 +65,7 @@ footer{
 
 a {
     text-decoration: none;
-    color: #D4AF37;
+    color: #ffffff;
 }
 
 /* Marquee alert bar */
@@ -104,13 +117,14 @@ a {
     align-items: stretch;
     position: relative;
     height: auto;
-    width: 99%;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
     margin-left: 10px;
     overflow: hidden;
     border-radius: 10px;
     display: flex;
     padding: 10px;
-    box-sizing: border-box;
 }
 
 /* RIGHT SIDE IMAGE */
@@ -135,16 +149,16 @@ a {
 /* LEFT SIDE TEXT */
 .textside {
     width: 50%;
-    padding-right: 15px;
+    padding-right: 10px;
     display: flex;
     flex-direction: column;
     margin-right: 10px;
 }
 
 .slidehead {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 40px;
     margin-bottom: 15px;
-    font-family: "Abril Fatface", serif;
     text-align: center;
     text-transform: capitalize;
     color: #6C071A;
@@ -153,21 +167,22 @@ a {
 
 .his {
     color: #D4AF37;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
     text-decoration: underline;
 }
 
 .sp {
-    margin-bottom: 12px;
-    line-height: 1.6;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 8px;
+    line-height: 1.4;
     color: #5a0214;
-    font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
 
 }
 
 .head {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     min-height: 100px;
     height: auto;
     width: 50%;
@@ -193,7 +208,7 @@ a {
 
 /* Grid Layout */
 .grid {
-    width: 90%;
+    width: 100%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -205,7 +220,7 @@ a {
     background: white;
     padding: 18px;
     border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
     transition: 0.3s ease;
 }
 
@@ -224,6 +239,7 @@ a {
 
 /* Card Heading */
 .card h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 12px 0 5px;
     color: #222;
     font-size: 21px;
@@ -231,6 +247,7 @@ a {
 
 /* Card Text */
 .card p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #555;
     font-size: 15px;
     line-height: 1.5;
@@ -256,6 +273,7 @@ a {
 }
 
 .main {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 30px;
     text-align: center;
     border-bottom: 2px solid #D4AF37;
@@ -273,13 +291,308 @@ a {
     background: #D4AF37;
     border-radius: 5px;
 }
-@media (max-width: 768px) {
+
+
+/* Custom Next Zone Section */
+.next-zone-custom {
+    background-color: #f7eee4;
+    padding: 45px 20px;
+    text-align: center;
+    width: 100%;
+    margin: 60px auto;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    animation: slideUp 0.8s ease-out;
+}
+
+.next-zone-custom h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #6C071A;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.next-zone-custom p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000000;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Button */
+.explore-btn-custom {
+    letter-spacing: 3px;
+    border-radius: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #6C071A;
+    color: #D4AF37;
+    padding: 14px 30px;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.explore-btn-custom:hover {
+    background: #b28d2c;
+}
+
+/* ============================ 
+   gallary page start 
+============================*/
+.maingallary{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    font-size: 3rem;
+}
+.side {
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:#6C071A; /* blue like WMF */
+    display: flex;
+    flex-direction: column; /* icons stacked vertically */
+    justify-content: center; /* vertical center */
+    align-items: center;    /* horizontal center */
+}
+
+.iconimg {
+    margin: 15px 0; /* space between icons */
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.iconimg:hover {
+    transform:rotateX(90deg) scale(0.66,1.5)
+}
+
+
+
+.parentgalary {
+    width: 100%;
+    padding: 80px 20px;
+   background-color: #EFE6DD; /* light background like WMF */
+    display: flex;
+    justify-content: center;
+}
+
+.gallary {
+    max-width: 70%; /* center and readable width */
+    text-align: center;
+}
+
+.gallaryhead {
+   font-family: var(--font-noe-text);
+        font-size: 7rem;
+        line-height: 110%;
+        letter-spacing: -.02em;
+        font-weight: 400;
+        word-break: normal;
+        margin-bottom: 50px;
+}
+
+.our {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+    line-height: 1;
+    color: #000000;
+   text-align: center;
+}
+
+
+/* ============================ 
+   gallary page end 
+============================*/
+
+/* ============================
+   MOBILE — up to 480px
+============================ */
+
+@media (max-width: 480px) {
     .parentslide {
-        flex-direction: column;
+        flex-direction: row;
+        /* row maintain karo */
+        align-items: flex-start;
+        /* text upar align ho */
+        gap: 10px;
+        /* thoda gap */
+        padding: 5px;
     }
 
-    .textside,
-    .slideimg {
+    .slidehead {
+        font-size: 18px;
+    }
+
+    .des {
+        margin: 0%;
+        font-size: 10px;
+    }
+
+    .head {
+        width: 300px;
+        height: 100px;
+    }
+
+    h1 {
+        font-size: 20px;
+
+    }
+
+    .sp {
+        font-size: 13px;
+        line-height: 1.4;
+    }
+
+    .his {
+        font-size: 16px;
+    }
+
+    .slideimg img {
         width: 100%;
+        height: auto;
+        max-height: 150px;
+        /* mobile friendly */
+        object-fit: cover;
+    }
+
+    /* text ko thoda upar lana ho to */
+    .textside {
+        width: 60%;
+        /* text 60% */
+        padding: 0 5px;
+        margin-top: 0;
+    }
+
+}
+
+/* Cards */
+.card {
+    margin-left: 10px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.card img {
+    height: 200px;
+}
+
+.card h2 {
+    font-size: 17px;
+}
+
+.card p {
+    font-size: 13px;
+}
+
+.btn {
+    padding: 10px 16px;
+    font-size: 13px;
+}
+
+.next-zone-custom h2 {
+    font-size: 22px;
+}
+
+.next-zone-custom p {
+    font-size: 15px;
+}
+
+footer {
+    font-size: 15px;
+}
+
+/* ============================
+   TABLET — 481px to 768px
+============================ */
+@media (min-width: 481px) and (max-width: 768px) {
+
+    .slidehead {
+        font-size: 20px;
+    }
+
+    .des {
+        margin: 0%;
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .sp {
+        font-size: 10px;
+        line-height: 1.45;
+    }
+
+    .his {
+        font-size: 13px;
+    }
+
+    .slideimg img {
+        max-height: 280px;
+    }
+
+    .card img {
+        height: 180px;
+    }
+
+    .card h2 {
+        font-size: 19px;
+    }
+
+    .btn {
+        padding: 11px 18px;
+    }
+}
+
+
+/* ============================
+   SMALL LAPTOP — 769px to 1024px
+============================ */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .slideimg img {
+        max-height: 330px;
+    }
+
+    .sp {
+        font-size: 15px;
+    }
+
+    .card img {
+        height: 200px;
+    }
+}
+
+
+/* ============================
+   LARGE LAPTOP — 1025px to 1366px
+============================ */
+@media (min-width: 1025px) and (max-width: 1366px) {
+
+    .slideimg img {
+        max-height: 400px;
+    }
+
+    .card img {
+        height: 220px;
+    }
+}
+
+
+/* ============================
+   DESKTOP — 1367px and above
+============================ */
+@media (min-width: 1367px) {
+
+    .slideimg img {
+        max-height: 480px;
+    }
+
+    .card img {
+        height: 250px;
     }
 }
