@@ -16,21 +16,6 @@ img {
     max-width: 100%;
 }
 
-
-footer {
-    width: 100%;
-    box-sizing: border-box;
-    height: 100px;
-    background-color: #7A0A10;
-    color: #E8DCCF;
-    font-size: 20px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    padding-top: 30px;
-    margin-top: 90px;
-}
-
 @keyframes slideUp {
     from {
         opacity: 0;
@@ -546,6 +531,13 @@ footer {
     .btn {
         padding: 11px 18px;
     }
+    .next-zone-custom h2 {
+    font-size: 22px;
+}
+
+.next-zone-custom p {
+    font-size: 15px;
+}
 }
 
 
@@ -565,6 +557,13 @@ footer {
     .card img {
         height: 200px;
     }
+    .next-zone-custom h2 {
+    font-size: 22px;
+}
+
+.next-zone-custom p {
+    font-size: 15px;
+}
 }
 
 
@@ -580,6 +579,7 @@ footer {
     .card img {
         height: 220px;
     }
+    
 }
 
 
